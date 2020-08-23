@@ -5,6 +5,8 @@
 
 #others
 *.pdf
+.vscode
+.sonarqube
 
 # User-specific files
 *.rsuser
