@@ -24,7 +24,7 @@ namespace HB.RoverCase.Models
             {
                 command.Execute();
             }
-            Console.WriteLine($"Coordinates after execution {Location}");
+            Console.WriteLine(Location);
         }
         public void SetCommands(List<ICommand> commands) => Commands.AddRange(commands);
     }
