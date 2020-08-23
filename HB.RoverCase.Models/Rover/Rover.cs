@@ -13,7 +13,6 @@ namespace HB.RoverCase.Models
             Location = location;
             Plateau = plateau;
             Commands = new List<ICommand>();
-            Console.Write($"Rover initialized on {Location}\t");
         }
 
         public ILocation GetLocation() => Location;
