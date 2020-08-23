@@ -43,3 +43,9 @@ Every Rover have a generic list property to store commands. Iterating all the ch
 Rover's **ExecuteCommands()** method is called to execute commands one by one through ICommand objects which all have an **Execute()** method. Turn and Move commands changes Rover's place or heading using its reference to the Rover's actual Location object. Boundry check is only writes a message saying it's out of plateau boundries.
 
 Unit test codes are also added for most of the classs and methods so if anything changes later like behavior or definition of any object in this problem (*say that 'M' moves Rover by 2 units instead of 1*), tests will fail and make us aware that we changed something we shouldn't.
+
+# Running
+1. Make sure that dotnet core sdk 3.1 is installed  
+2. Clone the repo  
+3. `cd` to *HB.RoverCase.ConsoleApp* directory  
+4. Execute `dotnet run` command  
