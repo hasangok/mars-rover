@@ -4,4 +4,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\HB.RoverCase.Models\HB.RoverCase.Models.csproj" />
+  </ItemGroup>
+
 </Project>
