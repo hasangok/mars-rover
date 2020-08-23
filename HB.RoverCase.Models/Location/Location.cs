@@ -49,6 +49,6 @@ namespace HB.RoverCase.Models
                 default: break;
             }
         }
-        public override string ToString() => $"({X},{Y}), {Heading}";
+        public override string ToString() => $"{X} {Y} {Heading}";
     }
 }
